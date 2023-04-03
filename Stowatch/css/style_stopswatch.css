@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: '';
+    font-family: 'sarabun', sans-serif;
 }
 
 .container {
@@ -12,4 +12,52 @@
     width: 100%;
     background: #2c3e4f;
     flex-direction: column;
+}
+
+.hour,
+.minute,
+.second {
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.text {
+    font-size: 25px;
+    color: #fffcd6;
+}
+
+#btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+}
+
+.bt--start {
+    background-color: rgb(77, 158, 77);
+}
+
+.bt--start:hover {
+    background-color: green;
+}
+
+.bt--stop {
+    background-color: rgb(106, 168, 207);
+}
+
+.bt--stop:hover {
+    background-color: rgb(12, 120, 187);
+}
+
+.bt--reset {
+    background-color: rgb(199, 86, 86);
+}
+
+.bt--reset:hover {
+    background-color: rgb(207, 10, 10);
 }
