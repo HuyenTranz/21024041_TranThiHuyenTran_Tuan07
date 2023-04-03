@@ -14,9 +14,7 @@
     flex-direction: column;
 }
 
-.hour,
-.minute,
-.second {
+.time {
     font-size: 100px;
     color: #ffffff;
 }
@@ -26,7 +24,7 @@
     color: #fffcd6;
 }
 
-#btn {
+.btn {
     padding: 10px 20px;
     font-size: 18px;
     margin: 10px;
@@ -38,26 +36,26 @@
     border: none;
 }
 
-.bt--start {
+#bt--start {
     background-color: rgb(77, 158, 77);
 }
 
-.bt--start:hover {
+#bt--start:hover {
     background-color: green;
 }
 
-.bt--stop {
+#bt--stop {
     background-color: rgb(106, 168, 207);
 }
 
-.bt--stop:hover {
+#bt--stop:hover {
     background-color: rgb(12, 120, 187);
 }
 
-.bt--reset {
+#bt--reset {
     background-color: rgb(199, 86, 86);
 }
 
-.bt--reset:hover {
+#bt--reset:hover {
     background-color: rgb(207, 10, 10);
 }
