@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.calc {
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #b49fdc;
+    border-radius: 10px;
+    background-color: #eaebff;
+}
+
+.result {
+    width: 400px;
+    height: 90px;
+}
+
+.result .input_btn {
+    width: 90%;
+    height: 70%;
+    outline: none;
+    font-size: 27px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.calc div {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calc button {
+    width: 70px;
+    height: 70px;
+    border-radius: 16px;
+    font-size: 20px;
+    border: 1px solid #a1c9f1;
+    background-color: #d3eeff;
+}
+
+/* Khi nhấn làm cho nút thu nhỏ xuống còn 90% kích thước ban đầu của nó. */
+button:active {
+    transform: scale(0.9);
+}
+
+/* chỉ định phần tử div thứ ba là con trực tiếp của phần tử có class là calc. */
+.calc>div:nth-child(3) button {
+    background-color: #e0fefe;
+}
+
+/* chỉ định phần tử .btn cuối cùng trong mỗi phần tử div là con trực tiếp của phần tử có class là calc */
+.calc>div button:last-child {
+    background-color: #e0fefe;
+}
+
+/* chỉ định phần tử .btn cuối cùng trong phần tử div cuối cùng là con trực tiếp của phần tử có class là calc. */
+.calc>div:last-child button:last-child {
+    background-color: #febcc8
+}
